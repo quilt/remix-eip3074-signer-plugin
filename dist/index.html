@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>EIP-3074 Signer</title>
+</head>
+
+<body>
+	<div style="padding:8px">
+		<div class="form-group">
+			<label for="signer">Signer Account: </label>
+			<select
+			class="form-control"
+			id="signer"
+			>
+				<option value="js">JS Wallet</option>
+			</select>
+        </div>
+        <div class="form-group">
+			<label for="invoker">Invoker Address: </label>
+			<input
+			type="text"
+			class="form-control"
+			id="invoker"
+			placeholder="0xabc..."
+			/>
+        </div>
+        <div class="form-group">
+          <label for="commit">Commit: </label>
+          <input
+            type="text"
+            class="form-control"
+            id="commit"
+            placeholder="default: 0x000..."
+          />
+        </div>
+        <button
+          type="submit"
+		  id="signBtn"
+          style="margin:10px 0 3px 0"
+          class="btn btn-lg btn-primary mb-2"
+        >
+          Create EIP-3074 Signature
+        </button>
+		<div class="form-group">
+			<label for="yParity">yParity: </label>
+			<input
+			  type="text"
+			  class="form-control"
+			  id="yParity"
+			  readonly
+			/>
+		</div>
+		<div class="form-group">
+			<label for="r">r: </label>
+			<input
+			  type="text"
+			  class="form-control"
+			  id="r"
+			  readonly
+			/>
+		</div>
+		<div class="form-group">
+			<label for="s">s: </label>
+			<input
+			  type="text"
+			  class="form-control"
+			  id="s"
+			  readonly
+			/>
+		</div>
+	</div>
+	<script src="main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,9 @@
+dist/*
+!dist/index.html
+!dist/logo.svg
+
+node_modules/
+
+package-lock.json
+
+.DS_Store

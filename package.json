@@ -1,0 +1,21 @@
+{
+  "name": "remix-plugin-eip3074",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^5.35.1",
+    "webpack-cli": "^4.6.0"
+  },
+  "dependencies": {
+    "@remixproject/plugin": "^0.3.11",
+    "@remixproject/plugin-webview": "^0.3.11",
+    "ethers": "^5.1.3"
+  }
+}
